@@ -1,0 +1,44 @@
+body
+{
+    margin:0;
+    padding:0;
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    height: 50vh;
+    font-family: helina;
+    background-color:#C38370;
+}
+.box{
+    width: 500px;
+}
+p{
+    margin:0;
+    padding:0;
+    font-size: 24px;
+
+}
+.rating {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.rating label{
+    justify-content:center;
+    align-items:center;
+    background-color:#C38370;
+    font-size: 25px;
+    color: #F6EEE0;
+    border-right: 1px solid #000;
+}
+.next{
+    background-color: #4CAF50; /* Green */
+    border:none;
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    padding-top: 30px;
+}
